@@ -3,6 +3,6 @@ import { sleep } from 'k6';
 
 export default function () {
   //http.get('https://test.k6.io');
-  http.get('https://idmstrn.moe.gov.my');
+  http.get('https://idmstrn.moe.gov.my/login');
   sleep(1);
 }
